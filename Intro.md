@@ -43,3 +43,34 @@ TiDB is a distributed, open-source **NewSQL** database that combines the scalabi
 ### **Conclusion**
 TiDB stands out by blending **MySQL compatibility, distributed scalability, and real-time analytics**—making it ideal for **modern, high-growth applications** that need both transactional and analytical capabilities.  
 
+
+### **1. TiDB vs. Traditional RDBMS (MySQL/PostgreSQL)**  
+   - **Scaling:** Vertical (MySQL) vs. Horizontal (TiDB)  
+   - **High Availability:** Master-slave (MySQL) vs. Raft-based (TiDB)  
+   - **Sharding:** Manual (MySQL) vs. Auto-sharding (TiDB)  
+
+### **2. TiDB vs. NoSQL (MongoDB/Cassandra)**  
+   - **Consistency:** Eventual (NoSQL) vs. Strong (TiDB)  
+   - **Query Language:** SQL vs. Proprietary APIs  
+   - **Transactions:** Single-document vs. Distributed ACID  
+
+### **3. TiDB vs. NewSQL (CockroachDB/YugabyteDB)**  
+   - **MySQL vs. PostgreSQL Compatibility**  
+   - **Storage Engine:** TiKV (RocksDB) vs. Cockroach’s Pebble  
+   - **HTAP Workloads:** TiFlash vs. Cockroach’s Columnar Storage  
+
+### **4. TiDB vs. Data Warehouses (Snowflake/BigQuery)**  
+   - **OLAP Performance:** TiFlash vs. Columnar Stores  
+   - **Cost:** Open-source (TiDB) vs. Cloud-based Pricing  
+   - **Real-time Analytics:** ETL vs. Direct Querying  
+
+### **5. TiDB’s Architecture Deep Dive**  
+   - **TiKV (Transactional KV Store)**  
+   - **TiFlash (Columnar Analytics Engine)**  
+   - **Placement Driver (PD) for Scheduling**  
+
+### **6. Use Cases: When to Choose TiDB?**  
+   - **High-growth apps needing scalability**  
+   - **Hybrid OLTP + OLAP workloads**  
+   - **Migrating from MySQL with minimal changes**  
+
